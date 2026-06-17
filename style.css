@@ -193,3 +193,6 @@ font-size:30px;
 .skill-category p {
     font-size: 18px;
 }
+html {
+    scroll-behavior: smooth;
+}
