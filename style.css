@@ -162,3 +162,14 @@ font-size:30px;
 }
 
 }
+.contact-icons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+}
+
+.icon-btn{
+    font-size:35px;
+    text-decoration:none;
+}
