@@ -10,8 +10,12 @@ background:linear-gradient(135deg,#dbeafe,#bfdbfe,#e0f2fe);
 color:#222;
 }
 .navbar{
-position:sticky;
+position:fixed;
+width:100%;
 top:0;
+background:rgba(255,255,255,.1);
+backdrop-filter:blur(15px);
+z-index:1000;
 display:flex;
 justify-content:space-between;
 align-items:center;
