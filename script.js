@@ -1,4 +1,4 @@
-const text = "Full Stack Developer";
+const text = "";
 
 let i = 0;
 
