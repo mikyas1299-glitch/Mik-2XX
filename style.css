@@ -210,8 +210,8 @@ to{transform:rotate(360deg);}
 .profile-container::before{
     content:"";
     position:absolute;
-    width:280px;
-    height:280px;
+    width:270px;
+    height:270px;
     border-radius:50%;
     background:conic-gradient(
         #00c6ff,
