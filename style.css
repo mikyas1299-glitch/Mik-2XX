@@ -96,7 +96,7 @@ font-size:16px;
 
 footer{
 text-align:center;
-padding:30px;
+padding:20px;
 background:#111;
 color:white;
 margin-top:50px;
@@ -201,8 +201,8 @@ to{transform:rotate(360deg);}
 .profile-container::before{
     content:"";
     position:absolute;
-    width:150px;
-    height:150px;
+    width:160px;
+    height:160px;
     border-radius:50%;
     background:conic-gradient(
         #00c6ff,
@@ -213,8 +213,8 @@ to{transform:rotate(360deg);}
 }
 
 .profile-container img{
-    width:140px;
-    height:140px;
+    width:150px;
+    height:150px;
     border-radius:50%;
     object-fit:cover;
     border:4px solid white;
