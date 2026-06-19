@@ -284,7 +284,6 @@ to{transform:rotate(360deg);}
     transform:translateY(-5px);
 }
 #home{
-    min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
