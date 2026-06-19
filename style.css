@@ -102,13 +102,18 @@ font-size:16px;
 }
 
 footer{
-    background:linear-gradient(135deg,#0f172a,#1e293b);
-    color:white;
+    background:linear-gradient(135deg,#f8fbff,#eef7ff);
+    color:#333;
     text-align:center;
     padding:25px;
     margin-top:40px;
-    border-top:2px solid #00c6ff;
-    box-shadow:0 -5px 20px rgba(0,0,0,.2);
+
+    border:2px solid #00c6ff;
+    border-radius:15px;
+
+    box-shadow:
+        0 0 10px rgba(0,198,255,.3),
+        0 0 20px rgba(0,198,255,.2);
 }
 
 @media(max-width:768px)
@@ -238,8 +243,8 @@ to{transform:rotate(360deg);}
 }
 
 .profile-container img{
-    width:240px;
-    height:240px;
+    width:180px;
+    height:180px;
     border-radius:50%;
     object-fit:cover;
     border:5px solid white;
