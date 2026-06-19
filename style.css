@@ -158,8 +158,8 @@ gap:20px;
 
 #contact{
 max-width:400px;
-background:linear-gradient(135deg,#2563eb,#1e40af);
-color:black;
+background:transparent;
+color:#222;
 border-radius:25px;
 padding:40px;
 margin:auto;
@@ -221,7 +221,6 @@ to{transform:rotate(360deg);}
     z-index:1;
 }
 .card{
-    .card{
     background:white;
     color:#222;
     border:1px solid #00ffff33;
