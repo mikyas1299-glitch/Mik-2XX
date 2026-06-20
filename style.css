@@ -314,6 +314,24 @@ to{transform:rotate(360deg);}
     z-index:0;
 }
 
+.about-details,
+.about-text,
+#about h1{
+    position:relative;
+    z-index:1;
+}
+
+#about{
+    border:2px solid gold;
+    border-radius:20px;
+    padding:30px;
+    background:rgba(255,215,0,.08);
+
+    box-shadow:
+        0 0 20px rgba(255,215,0,.6),
+        0 0 40px rgba(255,215,0,.4);
+}
+
 .profile-container::after{
     content:"";
     position:absolute;
