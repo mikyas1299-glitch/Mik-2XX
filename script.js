@@ -38,7 +38,6 @@ section.classList.add("show");
 
 });
 
-<script>
 function openPortfolio(){
     document.getElementById
       ("welcome-screen").
@@ -47,4 +46,4 @@ function openPortfolio(){
       ("portfolio-content").
       style.display="block";
 }
-</script>
+
