@@ -37,3 +37,14 @@ section.classList.add("show");
 });
 
 });
+
+<script>
+function openPortfolio(){
+    document.getElementById
+      ("welcome-screen").
+      style.display="none";
+    document.getElementById
+      ("portfolio-content").
+      style.display="block";
+}
+</script>
