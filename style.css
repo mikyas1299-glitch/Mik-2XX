@@ -19,7 +19,7 @@ width:100%;
 top:0;
 background:rgba(255,255,255,.1);
 backdrop-filter:blur(15px);
-z-index:780;
+z-index:500;
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -38,16 +38,12 @@ gap:20px;
     top:20px;
     left:50%;
     transform:translateX(-50%);
-
     display:flex;
     gap:20px;
-
     padding:12px 25px;
     border-radius:50px;
-
     background:rgba(0,0,0,0.4);
     backdrop-filter:blur(20px);
-
     box-shadow:0 0 25px rgba(0,198,255,0.3);
     z-index:1000;
 }
@@ -57,6 +53,7 @@ gap:20px;
     font-weight:bold;
     font-size:18px;
     transition:.3s;
+    display:inline-block;
 }
 
 .home{ color:green; }
@@ -67,6 +64,8 @@ gap:20px;
 
 .menu-box a:hover{
     transform:scale(1.1);
+    color:#00ffff;
+}
 }
 
 /* MAIN GLASS BOX */
