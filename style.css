@@ -277,15 +277,6 @@ to{transform:rotate(360deg);}
     margin-bottom:40px;
 }
 
-#about{
-    border:2px solid rgba(255,255,255,0.9);
-    border-radius:15px;
-
-    box-shadow:
-        0 0 15px rgba(255,255,255,.5),
-        0 0 30px rgba(255,255,255,.3);
-}
-
 .projects-container{
     display:flex;
     gap:40px;
@@ -341,6 +332,16 @@ to{transform:rotate(360deg);}
     border:5px solid white;
     z-index:2;
 }
+
+.btn-outline{
+    border:2px solid rgba(255,255,255,0.9);
+    border-radius:50px;
+
+    box-shadow:
+        0 0 15px rgba(255,255,255,.5),
+        0 0 30px rgba(255,255,255,.3);
+}
+
 .card{
     background:rgba(30,41,59,0.85);
     backdrop-filter:blur(15px);
