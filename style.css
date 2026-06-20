@@ -366,8 +366,8 @@ to{transform:rotate(360deg);}
     color:white;
     border:1px solid #00ffff33;
     border-radius:20px;
-    padding:30px;
-    width:280px;
+    padding:15px;
+    width:200px;
     transition:.4s;
     text-align:center;
 }
