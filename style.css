@@ -84,7 +84,7 @@ gap:20px;
 
 /* MAIN GLASS BOX */
 #ain-box{
-    max-width:200px;
+    max-width:100px;
     margin:90px auto;
     padding:30px;
     baground:rgba(255,255,255,0.08);
@@ -334,8 +334,11 @@ to{transform:rotate(360deg);}
     z-index:2;
 }
 .card{
-    background:#2d2d2d;
-    border:1px solid #00ffff33;
+    .card{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    color:#222;
+}
     color:white;
     border:1px solid #00ffff33;
     border-radius:20px;
