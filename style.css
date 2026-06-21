@@ -282,8 +282,8 @@ to{transform:rotate(360deg);}
 }
 
 .projects-container{
-    width:150px;
-    height:140px;
+    width:100px;
+    height:80px;
     gap:30px;
     display:flex;
     justify-content:center;
