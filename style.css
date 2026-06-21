@@ -192,7 +192,9 @@ footer{
 @media (max-width:768px){
     .menu-box a{
         font-size:1.2rem;
-.menu-box{
+    }
+
+    .menu-box{
         gap:10px;
     }
 }
@@ -258,6 +260,14 @@ box-shadow:0 10px 25px rgba(0,0,0,.15);
 @keyframes spin{
 from{transform:rotate(0deg);}
 to{transform:rotate(360deg);}
+}
+
+.contact-icons{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
 }
 
 .section-title{
