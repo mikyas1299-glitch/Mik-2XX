@@ -279,7 +279,7 @@ to{transform:rotate(360deg);}
 
 .projects-container{
     display:flex;
-    gap:40px;
+    gap:20px;
     justify-content:center;
     flex-wrap:wrap;
 }
@@ -321,17 +321,6 @@ to{transform:rotate(360deg);}
     z-index:1;
 }
 
-#contact me{
-    border:2px solid gold;
-    border-radius:20px;
-    padding:30px;
-    background:rgba(255,215,0,.08);
-
-    box-shadow:
-        0 0 20px rgba(255,215,0,.6),
-        0 0 40px rgba(255,215,0,.4);
-}
-
 .profile-container::after{
     content:"";
     position:absolute;
@@ -352,29 +341,35 @@ to{transform:rotate(360deg);}
 }
 
 .btn-outline{
-    border:2px solid rgba(255,255,255,0.9);
-    border-radius:50px;
+    border:2px solid gold;
+    border-radius:20px;
+    padding:30px;
+    background:rgba(255,215,0,.08);
 
     box-shadow:
-        0 0 15px rgba(255,255,255,.5),
-        0 0 30px rgba(255,255,255,.3);
+        0 0 20px rgba(255,215,0,.6),
+        0 0 40px rgba(255,215,0,.4);
 }
 
 .card{
-    background:rgba(30,41,59,0.85);
-    backdrop-filter:blur(15px);
-    color:white;
-    border:1px solid #00ffff33;
-    border-radius:20px;
-    padding:15px;
-    width:200px;
-    transition:.4s;
+    background:linear-gradient(
+        135deg,
+        #1e293b,
+        #334155,
+        #475569
+    );
+    color:#fff;
+    padding:20px;
+    border-radius:12px;
+    width:250px; /* እንደ skills */
     text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:.3s;
 }
 
 .card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 0 25px #00ffff66;
+    transform:translateY(-5px) scale(1.03);
+    box-shadow:0 0 25px rgba(0,198,255,0.5);
 }
 
 .project-icon{
