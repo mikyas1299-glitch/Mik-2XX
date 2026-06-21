@@ -6,11 +6,12 @@ font-family:'Poppins',sans-serif;
 scroll-behavior:smooth;
 }
 body{
-background:linear-gradient(135deg,#dbeafe,#bfdbfe,#e0f2fe);
+background:linear-gradient
+    (135deg,#dbeafe,#bfdbfe,#e0f2fe);
 color:#222;
 padding-left:30px;
 padding-right:30px;
-padding-top:100px;
+padding-top:30px;
 }
 
 .navbar{
@@ -85,7 +86,7 @@ gap:20px;
 /* MAIN GLASS BOX */
 #main-box{
     max-width:1200px;
-    margin:90px auto;
+    margin:70px auto;
     width:100%;
     padding:30px;
     baground:rgba(255,255,255,0.08);
