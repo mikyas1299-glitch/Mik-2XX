@@ -202,7 +202,7 @@ footer{
 }
 .icon-btn{
     width:80px;
-    height:50px;
+    height:70px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -282,8 +282,10 @@ to{transform:rotate(360deg);}
 }
 
 .projects-container{
+    width:150px;
+    height:140px;
+    gap:30px;
     display:flex;
-    gap:20px;
     justify-content:center;
     flex-wrap:wrap;
 }
