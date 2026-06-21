@@ -131,6 +131,7 @@ color:brown;
 .contact{
 color:red;
 }
+
 #home,
 #about,
 #projects,
@@ -138,6 +139,7 @@ color:red;
 #contact{
 scroll-margin-top: 120px;
 }
+
 section{
 opacity:0;
 transform:translateY(50px);
@@ -200,7 +202,7 @@ footer{
 }
 .icon-btn{
     width:80px;
-    height:80px;
+    height:50px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -214,7 +216,7 @@ footer{
 }
 
 .icon-btn:hover{
-    transform:translateY(-10px) scale(1.1);
+    transform:translateY(-5px) scale(1.1);
            }
 
 .skill-category {
