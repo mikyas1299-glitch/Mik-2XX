@@ -321,7 +321,7 @@ to{transform:rotate(360deg);}
 
 .about-details,
 .about-text,
-#about h1{
+ #about h1{
     position:relative;
     z-index:1;
 }
