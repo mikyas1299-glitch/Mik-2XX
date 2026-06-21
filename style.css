@@ -84,8 +84,9 @@ gap:20px;
 
 /* MAIN GLASS BOX */
 #main-box{
-    max-width:100px;
+    max-width:1200px;
     margin:90px auto;
+    width:100%;
     padding:30px;
     baground:rgba(255,255,255,0.08);
     backdrop-filter:blur(20px);
@@ -190,14 +191,16 @@ footer{
         0 0 10px rgba(0,198,255,.3),
         0 0 20px rgba(0,198,255,.2);
 }
-
 @media (max-width:768px){
-    .menu-box a{
-        font-size:1.2rem;
+
+    .projects-container{
+        flex-direction:column;
+        align-items:center;
     }
 
-    .menu-box{
-        gap:10px;
+    .card{
+        width:90%;
+        max-width:280px;
     }
 }
 .icon-btn{
@@ -282,12 +285,11 @@ to{transform:rotate(360deg);}
 }
 
 .projects-container{
-    width:100px;
-    height:80px;
-    gap:30px;
     display:flex;
-    justify-content:center;
     flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    width:100%;
 }
 
 .profile-container{
@@ -365,7 +367,7 @@ to{transform:rotate(360deg);}
         #475569
     );
     color:#fff;
-    padding:20px;
+    padding:15px;
     border-radius:12px;
     width:250px; /* እንደ skills */
     text-align:center;
