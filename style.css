@@ -192,15 +192,12 @@ footer{
         0 0 20px rgba(0,198,255,.2);
 }
 @media (max-width:768px){
-
-    .projects-container{
-        flex-direction:column;
-        align-items:center;
+    .menu-box a{
+        font-size:1.2rem;
     }
 
-    .card{
-        width:90%;
-        max-width:280px;
+    .menu-box{
+        gap:10px;
     }
 }
 .icon-btn{
