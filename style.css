@@ -197,13 +197,6 @@ footer{
         gap:10px;
     }
 }
-.contact-icons{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    margin:25px 0;
-}
-
 .icon-btn{
     width:80px;
     height:80px;
@@ -343,7 +336,7 @@ to{transform:rotate(360deg);}
 .btn-outline{
     border:2px solid gold;
     border-radius:20px;
-    padding:30px;
+    padding:15px;
     background:rgba(255,215,0,.08);
 
     box-shadow:
